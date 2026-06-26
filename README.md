@@ -13,3 +13,19 @@ An autonomous, fully local AI Agent built to interact with an ERP database using
 * **Framework:** Python, Streamlit
 * **Database:** SQLite (Simulated ERP System)
 * **Agent Architecture:** Tool-use & Custom System Prompts
+* ## 🚀 How to Run
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/12345zahraa/local-persian-erp-ai-agent.git](https://github.com/12345zahraa/local-persian-erp-ai-agent.git)
+   cd local-persian-erp-ai-agent
+   Install dependencies:
+Make sure you have your virtual environment activated, then run:
+pip install -r requirements.txt
+2. Start Ollama Engine:
+Ensure Ollama is running locally and you have the model pulled:
+ollama pull llama3.2:1b
+3. Run the Application:
+Launch the Streamlit dashboard using:
+
+Bas
