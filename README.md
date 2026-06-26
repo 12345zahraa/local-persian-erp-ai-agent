@@ -22,10 +22,20 @@ An autonomous, fully local AI Agent built to interact with an ERP database using
    Install dependencies:
 Make sure you have your virtual environment activated, then run:
 pip install -r requirements.txt
-2. Start Ollama Engine:
+Install dependencies:
+Make sure you have your virtual environment activated, then run:
+
+Bash
+pip install streamlit ollama
+Start Ollama Engine:
 Ensure Ollama is running locally and you have the model pulled:
+
+Bash
 ollama pull llama3.2:1b
-3. Run the Application:
+Run the Application:
 Launch the Streamlit dashboard using:
+
+Bash
+streamlit run web_app.py
 
 Bas
